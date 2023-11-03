@@ -13,6 +13,7 @@ public class PrimeNumberDemo {
             System.out.print("Enter last positive integer : ");
             int n = input.nextInt();
             int count = 0;
+            int totalPrime = 0;
             
             
             for (int i = m; i <= n; i++) {
@@ -21,12 +22,15 @@ public class PrimeNumberDemo {
                         count++;
                         break;
                     }
-                }
+                } 
                 if(count == 0){
-                    System.out.println(i);
-                    count = 0;
+                     System.out.println(i);
+                     totalPrime++;
                 }
+                   
+                   count = 0;
+             
             }
-            
+            System.out.println("Total prime number " + totalPrime);
     }
 }
