@@ -1,5 +1,5 @@
 
-package basic_java.problem_solving;
+package basic_java.loop;
 
 public class ForLoopDemo {
     public static void main(String[] args) {
